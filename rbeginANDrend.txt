@@ -1,0 +1,22 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}}
+{\*\generator Riched20 10.0.17134}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\f0\fs32\lang9 1.\ul\b std::rbegin() \ulnone\b0\par
+       1. It does not take ant parameter .\par
+       2. It return an  iterator pointing to the \b last \b0 element in the \tab  container  .\par
+      3. for example \par
+\tab\tab if our vector is as follow :\par
+\tab\tab v = \{45   , 3 ,  12 ,  34  , 78 \}\par
+                  std::cout << * v.rbegin() ;\par
+                  it will print 78 on screen .\par
+2. \ul\b std::rend()\par
+\ulnone\b0\tab 1. It does not take ant parameter .\par
+       \tab 2. It return an  iterator pointing to the \b first\b0  element in the \tab  container  .\par
+      \tab 3. for example \par
+\tab\tab if our vector is as follow :\par
+\tab\tab v = \{1   , 3 ,  100 ,  34  , 78 \}\par
+                  std::cout << * v.rend() ;\par
+                  it will print 1 on screen .\par
+\par
+\tab\par
+\fs22\par
+}
